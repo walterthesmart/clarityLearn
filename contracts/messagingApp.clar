@@ -24,9 +24,7 @@
 
 (define-constant price u5000000)
 
-
-
-(define-map messages { sender: principal } { message: string-utf8 })
+(define-map messages {sender: principal} { message: string-utf8 })
 
 (define-public (write-message (message string-utf8))
     (begin 
